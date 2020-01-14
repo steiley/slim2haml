@@ -1,4 +1,4 @@
-# Slim2haml
+# slim2haml
 
 This is based [suranyami/slim2haml](https://github.com/suranyami/slim2haml).
 This is easier conversion of SLIM files to HTML.

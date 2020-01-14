@@ -1,0 +1,25 @@
+#!ruby -w
+@path = Dir.pwd
+
+def rel(file_path)
+  file_path.gsub(@path, '')
+end
+
+def message(action, f1, f2 = nil)
+  print "#{action} #{rel(f1)}"
+  print " to #{rel(f2)}" if f2
+  puts
+end
+
+%w(slim skim).each do |suffix|
+  Dir.glob(File.join(@path, "**/*.#{suffix}")).each do |f|
+    target_erb = f.gsub(/.#{suffix}/, '.erb')
+    `slimrb -e --rails #{f} > #{target_erb}`
+    target_haml = target_erb.gsub(/.erb/, '.haml')
+
+    message "converting", f, target_haml
+    `html2haml -e #{target_erb} #{target_haml}`
+    File.delete(f)
+    File.delete(target_erb)
+  end
+end
