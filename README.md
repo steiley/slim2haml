@@ -1,7 +1,7 @@
 # Slim2haml
 
-This is based [suranyami/slim2haml](https://github.com/suranyami/slim2haml).
-This is easier conversion of SLIM files to HTML.
+This is based on [suranyami/slim2haml](https://github.com/suranyami/slim2haml).
+This converts SLIM files to HAML files more easily.
 
 ## Installation
 
@@ -31,7 +31,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/slim2haml. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [code of conduct](https://github.com/[USERNAME]/slim2haml/blob/master/CODE_OF_CONDUCT.md).
+Bug reports and pull requests are welcome on GitHub at https://github.com/steiley/slim2haml. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [code of conduct](https://github.com/[USERNAME]/slim2haml/blob/master/CODE_OF_CONDUCT.md).
 
 
 ## License
