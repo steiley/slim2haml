@@ -6,8 +6,8 @@ Gem::Specification.new do |spec|
   spec.authors       = ['steiley']
   spec.email         = ['xwarina.sivik@gmail.com']
 
-  spec.summary       = 'onvert slim files to haml files tool'
-  spec.description   = 'onvert slim files to haml files'
+  spec.summary       = 'Convert slim files to haml files tool'
+  spec.description   = 'Convert slim files to haml files'
   spec.homepage      = 'https://github.com/steiley/slim2haml'
   spec.license       = 'MIT'
   spec.required_ruby_version = Gem::Requirement.new(">= 2.3.0")
